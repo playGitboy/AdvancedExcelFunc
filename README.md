@@ -4,6 +4,7 @@
 函数功能详见Microsoft帮助，如  
 [XLOOKUP](https://support.microsoft.com/zh-cn/office/xlookup-%E5%87%BD%E6%95%B0-b7fd680e-6d10-43e6-84f9-88eae8bf5929)  
 [QNIQUE](https://support.microsoft.com/zh-cn/office/unique-%E5%87%BD%E6%95%B0-c5ab87fd-30a3-4ce9-9d1a-40204fb85e1e)  
+[TEXTJOIN](https://support.microsoft.com/zh-cn/office/textjoin-%E5%87%BD%E6%95%B0-357b449a-ec91-49d0-80c3-0e8fc845691c)  
 
 ## 安装和设置  
 ### 安装  
