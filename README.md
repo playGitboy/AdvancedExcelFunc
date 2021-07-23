@@ -1,4 +1,4 @@
-# Excel高阶函数的python实现（xlwings UDF笔记）  
+# Excel高阶函数python版  
 基于Python的xlwings库实现Excel高阶函数TEXTJOIN/SEQUENCE/RANDARRAY/UNIQUE/XLOOKUP/SORT/FILTER等，让普通Excel2007-2013也能用Excel365新增函数……  
 
 ## 安装和设置  
