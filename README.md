@@ -1,6 +1,10 @@
 # Excel高阶函数python版  
 基于Python的xlwings库实现TEXTJOIN/SEQUENCE/RANDARRAY/UNIQUE/XLOOKUP/SORT/FILTER等7个Excel新增高阶函数，同时新增FAKER(批量生成测试数据，如姓名/用户名/手机/身份证/邮箱等)、STACK、NDimension(按指定维度转换数据区域)、SUMVALUE(忽略公式仅汇总数字)等自定义函数，让普通Excel2007-2013也能用上Excel365新增函数……  
 
+函数功能详见Microsoft帮助，如  
+https://support.microsoft.com/zh-cn/office/xlookup-%E5%87%BD%E6%95%B0-b7fd680e-6d10-43e6-84f9-88eae8bf5929  
+https://support.microsoft.com/zh-cn/office/unique-%E5%87%BD%E6%95%B0-c5ab87fd-30a3-4ce9-9d1a-40204fb85e1e  
+
 ## 安装和设置  
 ### 安装  
 方法一：下载安装 Anaconda3（推荐）  
