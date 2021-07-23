@@ -48,24 +48,24 @@ Excel设置步骤:
 > py脚本名和Excel文件名一致，且不能含特殊字符(如括号、引号等)  
 > 支持任意Excel文件(xls/xlsm/xlsx等等)  
 
-重复点击"Import Functions"按钮Excel提示以下错误 
-> 弹窗"Could not activate Python COM server, hr = -2147023170 1000" 
+重复点击"Import Functions"按钮Excel提示以下错误  
+> 弹窗"Could not activate Python COM server, hr = -2147023170 1000"  
 > 先点击“Restart UDF Server”再点击“Import Functions”即可 
 
-点击"Import Functions"按钮Excel提示以下错误 
-> 弹窗“No command specified in the configuration, cannot autostart server 1000”  
-> 勾选了"Debug UDFs"但未检测到后台调试进程——如需调试UDF请查看"IDE调试UDF"注意事项，否则请取消"Debug UDFs"勾选  
+点击"Import Functions"按钮Excel提示以下错误  
+> 弹窗“No command specified in the configuration, cannot autostart server 1000”   
+> 勾选了"Debug UDFs"但未检测到后台调试进程——如需调试UDF请查看"IDE调试UDF"注意事项，否则请取消"Debug UDFs"勾选   
 
-> 弹窗“自动化 (Automation) 错误 440” 
-> UDF参数名称与python内置函数名称/关键字等冲突，比如min/max/integer等 
+> 弹窗“自动化 (Automation) 错误 440”  
+> UDF参数名称与python内置函数名称/关键字等冲突，比如min/max/integer等  
 
-> 弹窗“无法使用该函数” 
-> UDF函数名与Excel函数名冲突，如"XLOOKUP"编写UDF时建议命名为"myXLOOKUP"以示区别 
+> 弹窗“无法使用该函数”  
+> UDF函数名与Excel函数名冲突，如"XLOOKUP"编写UDF时建议命名为"myXLOOKUP"以示区别  
 
-> 单元格显示“要求对象” 
-> Excel中Alt+F11打开VBE，“工具——引用”勾选xlwings 
+> 单元格显示“要求对象”  
+> Excel中Alt+F11打开VBE，“工具——引用”勾选xlwings  
 
-> 单元格显示“Could not create Python process. Error message: 拒绝访问”  
+> 单元格显示“Could not create Python process. Error message: 拒绝访问”   
 > Python被其他程序后台占用，任务管理器结束python进程或重启系统  
 
 ## In-Excel SQL  
